@@ -29,6 +29,7 @@
   background-position: 50% 50%;
   background-attachment: scroll;
   background-blend-mode: soft-light;
+
   /* filter: saturate(160%) brightness(70%) contrast(180%); */
 }
 
@@ -46,7 +47,12 @@ header {
 
 .cuerpoHomePage {
   position: relative;
-  
+
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /* PRIMERA IMAGEN */
 @keyframes sticky-parallax-header-move-and-size {
@@ -134,6 +140,17 @@ h1 {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+.colorHexagonos {
+  background-color: #1e2530;
+}
+
+.ricias {
+  background-color: #f8f9fa;
+  height: 50px;
+  width: 100vw;
+  position: relative;
 }
 
 @keyframes masthead {

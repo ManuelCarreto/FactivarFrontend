@@ -3,6 +3,7 @@ import { NavBarComponent } from '../nav-bar/nav-bar.component';
 import { BotonAccesosComponent } from '../boton-accesos/boton-accesos.component';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { FooterComponent } from '../footer/footer.component';
+import { Footer2Component } from '../footer2/footer2.component';
 
 @Component({
   selector: 'app-home-page',
@@ -12,7 +13,8 @@ import { FooterComponent } from '../footer/footer.component';
     BotonAccesosComponent,
     RouterLink,
     RouterLinkActive,
-    FooterComponent
+    FooterComponent,
+    Footer2Component
   ],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.css',

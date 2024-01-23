@@ -10,6 +10,7 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { ToastModule } from 'primeng/toast';
+import { Footer2Component } from './components/footer2/footer2.component';
 
 @Component({
   selector: 'app-root',
@@ -28,6 +29,7 @@ import { ToastModule } from 'primeng/toast';
     FacturasComponent,
     HomePageComponent,
     FooterComponent,
+    Footer2Component
   ],
 })
 export class AppComponent {

@@ -1,6 +1,9 @@
 @if (isHome()) {
 <app-home-page />
-<app-footer class="factivar-footer" />
+<!-- <app-footer class="factivar-footer" /> -->
+
+<app-footer2 class="factivar-footer"></app-footer2>
+
 } @else if (isLogin()) {
 <app-login />
 } @else if (isRegister()) {
@@ -14,7 +17,7 @@
   <div class="factivar-content">
     <router-outlet />
   </div>
-
-  <app-footer class="factivar-footer" />
+  <app-footer2 class="factivar-footer"></app-footer2>
+  <!-- <app-footer class="factivar-footer" /> -->
 </main>
 }
